@@ -3,7 +3,7 @@
 
 ---
 ### モジュール00:
-* #### [ラボ 00:ラボ環境を検証する](AZ400_M00_Validate_lab_environment.md){:target="_blank"}
+* #### <p><a href="AZ400_M00_Validate_lab_environment.md" target="_blank">ラボ 00:ラボ環境を検証する</a></p>
 
 ---
 ### モジュール01:
