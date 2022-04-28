@@ -7,7 +7,9 @@ https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%
 * ラボ利用にあたっての注意  
 https://github.com/shu2-sato/courcenote/blob/main/az500/pdf/%E3%83%A9%E3%83%9C%E7%92%B0%E5%A2%83%E6%BA%96%E5%82%99.pdf  
 ※ラボを触るときは、ローカルの入力モードを、英字にしておくと安定します。
-* ラボコンテンツ  
+* ラボコンテンツ(最新)
+[AboutMe](./Lab_Apr_202204/AZ400_Top.md)
+* ラボコンテンツ(古い)  
 https://microsoftlearning.github.io/AZ-400JA-Designing-and-Implementing-Microsoft-DevOps-solutions/
 * ラボ環境：  
 https://esi.learnondemand.net
