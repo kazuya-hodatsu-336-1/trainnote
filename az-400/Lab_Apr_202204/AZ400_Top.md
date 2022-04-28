@@ -3,28 +3,28 @@
 
 ---
 ### モジュール00:
-* #### <p><a href="AZ400_M00_Validate_lab_environment.md" target="_blank">ラボ 00:ラボ環境を検証する</a></p>
+* #### [ラボ 00:ラボ環境を検証する](AZ400_M00_Validate_lab_environment.md)
 
 ---
 ### モジュール01:
-* #### [ラボ 01:Azure Boards を使用したアジャイル プランニングとポートフォリオ管理](AZ400_M01_Agile_Planning_and_Portfolio_Management_with_Azure_Boards.md){:target="_blank"}
-* #### [ラボ 02:Azure Repos の Git によるバージョン管理](AZ400_M01_Version_Controlling_with_Git_in_Azure_Repos.md){:target="_blank"}
+* #### [ラボ 01:Azure Boards を使用したアジャイル プランニングとポートフォリオ管理](AZ400_M01_Agile_Planning_and_Portfolio_Management_with_Azure_Boards.md)
+* #### [ラボ 02:Azure Repos の Git によるバージョン管理](AZ400_M01_Version_Controlling_with_Git_in_Azure_Repos.md)
 ---
 ### モジュール02:
-* #### [ラボ 03:Azure Repos の Git によるバージョン管理](AZ400_M02_Version_Controlling_with_Git_in_Azure_Repos.md){:target="_blank"}
+* #### [ラボ 03:Azure Repos の Git によるバージョン管理](AZ400_M02_Version_Controlling_with_Git_in_Azure_Repos.md)
 
 ---
 ### モジュール03:
-* #### [ラボ 04:エージェント プールの構成とパイプライン スタイルの把握](AZ400_M03_Configuring_Agent_Pools_and_Understanding_Pipeline_Styles.md){:target="_blank"}
-* #### [ラボ 05:Azure Pipelines を使用した継続的インテグレーションの有効化](AZ400_M03_Enabling_Continuous_Integration_with_Azure_Pipelines.md){:target="_blank"}
-* #### [ラボ 06:DevOps Starter を使用して GitHub Actions を実装する](AZ400_M03_Implementing_GitHub_Actions_by_using_DevOps_Starter.md){:target="_blank"}
-* #### [ラボ 07:外部ソース管理と Azure Pipelines の統合](AZ400_M03_Integrating_External_Source_Control_with_Azure_Pipelines.md){:target="_blank"}
+* #### [ラボ 04:エージェント プールの構成とパイプライン スタイルの把握](AZ400_M03_Configuring_Agent_Pools_and_Understanding_Pipeline_Styles.md)
+* #### [ラボ 05:Azure Pipelines を使用した継続的インテグレーションの有効化](AZ400_M03_Enabling_Continuous_Integration_with_Azure_Pipelines.md)
+* #### [ラボ 06:DevOps Starter を使用して GitHub Actions を実装する](AZ400_M03_Implementing_GitHub_Actions_by_using_DevOps_Starter.md)
+* #### [ラボ 07:外部ソース管理と Azure Pipelines の統合](AZ400_M03_Integrating_External_Source_Control_with_Azure_Pipelines.md)
 
 ---
 ### モジュール04:
-* #### [ラボ 08:リリース ゲートを使用したデプロイの制御](AZ400_M04_Controlling_Deployments_using_Release_Gates.md){:target="_blank"}
+* #### [ラボ 08:リリース ゲートを使用したデプロイの制御](AZ400_M04_Controlling_Deployments_using_Release_Gates.md)
 * #### [ラボ 09: リリース ダッシュボードの作成](AZ400_M04_Creating_a_Release_Dashboard.md)
-* #### [ラボ 10: LaunchDarkly と Azure DevOps を使用した機能フラグ管理](AZ400_M04_Feature_Flag_Management_with_LaunchDarkly_and_Azure_DevOps.md){:target="_blank"}
+* #### [ラボ 10: LaunchDarkly と Azure DevOps を使用した機能フラグ管理](AZ400_M04_Feature_Flag_Management_with_LaunchDarkly_and_Azure_DevOps.md)
 
 ---
 ### モジュール05:
