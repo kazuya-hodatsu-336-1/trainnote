@@ -189,18 +189,7 @@ https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%
         * 作成したCollectionをクリックしたら、右下のSaveをクリック。完成すると以下のようになります。
         ![090201](./img/09020202.jpg)
       * 4.別の Web ブラウザー ウィンドウを開き、Releases - List Microsoft Docs ページに移動し、その内容を確認します。
-
-:::note info
-        Lab内のコンピューターからは、このリンクには飛べない可能性があります。外部のコンピューターからアクセスしてみてください。（必須ではないので、見れなければスキップでOKです）
-:::
-
-:::note
-#### Markdown style
-
-*Italic* **Bold**
-~~strikethrough~~ :kissing_closed_eyes:
-
-#### HTML style
-
-<em>Italic</em> <strong>Bold</strong>
-:::
+        * Lab内のコンピューターからは、このリンクには飛べない可能性があります。外部のコンピューターからアクセスしてみてください。（必須ではないので、見れなければスキップでOKです）
+      * 6.アプリ ウィンドウの右上のセクションにある [スタート パッド] ペインで、ドロップダウン リストに GET が表示されていることを確認し、すべてのリリースを一覧表示するには、 [要求 URL を入力してください] テキストボックスに次のように入力して、 [送信] をクリックします (<organization_name> の値を Azure DevOps 組織の名前に置き換えます)。
+        * <organization_name>だけでなく、英名でつけたAzure DevOpsのプロジェクト名が「Creating a Release Dashboard」じゃない場合は、その部分も書き換える必要があります。赤枠の部分を削除して、ご自身のプロジェクト名に直してください。
+        ![090201](./img/09020601.jpg)
