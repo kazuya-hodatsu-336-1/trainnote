@@ -2,8 +2,6 @@
 ## ★リンク集 
 * 今回のトレーニング用の新しいMicrosoftアカウントの作成:  
 https://github.com/hiryamada/notes/blob/main/prep/msa.md
-* ラボの準備  
-https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%92%B0%E5%A2%83%E3%81%A7%E3%81%AE-promo-code-%E3%81%AE%E5%85%A5%E6%89%8B
 * ラボ利用にあたっての注意  
 https://github.com/shu2-sato/courcenote/blob/main/az500/pdf/%E3%83%A9%E3%83%9C%E7%92%B0%E5%A2%83%E6%BA%96%E5%82%99.pdf  
 ※ラボを触るときは、ローカルの入力モードを、英字にしておくと安定します。
@@ -11,6 +9,10 @@ https://github.com/shu2-sato/courcenote/blob/main/az500/pdf/%E3%83%A9%E3%83%9C%E
 [ラボコンテンツURL](./Lab_Apr_202204/AZ400_Top.md)  
 * ラボ環境：  
 https://esi.learnondemand.net
+* Azure DevOps Demo Generator：  
+https://azuredevopsdemogenerator.azurewebsites.net/
+* Azure DevOps Portal  
+https://dev.azure.com/
 * ESI（Enterprise Skills Initiative)を用いた、無料の受講方法について:  
 https://aka.ms/lxpexamdiscountvideo
 * Courceware:  
@@ -49,7 +51,8 @@ https://aka.ms/MOC_AZ-400T00-jpn
 
 
 ---
-* **ラボ０：**  
+* **ラボ０：ラボの準備**  
+https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%92%B0%E5%A2%83%E3%81%A7%E3%81%AE-promo-code-%E3%81%AE%E5%85%A5%E6%89%8B  
 準備をまずは終わらせましょう。（最初に行っておかないと、３時間以上準備にかかるものがあります）  
 　この準備は、ラボ環境にログインすると、案内が出ますので、それに従って進めてください。
 　*デモ２０は飛ばしてください。  
@@ -134,5 +137,24 @@ https://aka.ms/MOC_AZ-400T00-jpn
         * すぐには「すべてのチェックに失敗しました。」になりません。少し待つと、「All checks have failed」になります。
 ---
 * **ラボ 08:リリース ゲートを使用したデプロイの制御**  
+  * 演習0  
+    * タスク３  
+      * 3.「Application Insights」ブレードの「基本」タブで、次の設定を指定します (他の設定は既定値のままにします)。
+        * ここで出てくる「前のタスクで記録したカナリアWebアプリの名前」は作成完了時にJSON形式で返却されている、「repositorySiteName」です。
   * 演習1  
-    * タスク1  
+    * タスク１  
+      * 2.「リリース」ビューの「PartsUnlimited-CD」ペインで、「編集」をクリックします。  
+        * しばらく待ってもパイプラインが出ない場合は、ブラウザをリロードしてみてください。
+      * 5.カナリア環境 ステージ内で、1 ジョブ、2 タスク のラベルをクリックし、このステージ内のタスクを確認します。
+        * 非常に待つ場合があります。少し待っても解決しない場合はブラウザのリロードをしてみてください。または、一度ブラウザを終了して再度ログインし直したほうがスムーズに行く場合があります。
+  * 各所で出てくる、「Azureサブスクリプション」の選択について  
+    * Authorizeは一度のみでOKです。一度Authorizeすると、それ以降ドロップダウンには２つ出てくる場合があります。どちらか選んでみると、Authorizeが出なく、もう一方を選ぶとAurhorizeが出ます。すでに１度認証済みであれば、それ以降はAuthorizeのでないほうを選んでください。（２度選ぶことはできません）
+  * 演習3  
+    * タスク１  
+      * 5.カナリア環境 ステージを表す長方形の左端にある デプロイ前 の状態を表す楕円形をクリックします。この時点で、ゲートの評価 または デプロイ前のゲートが失敗した というラベルが付いている可能性があります。
+        * その前に、承認者の設定をしています。自分のアカウントを指定して承認者に指定しているはずなので、Approveが必要です。Approve後、一度ブラウザをリフレッシュしてください。Gate情報が更新されない場合があります。
+      * 16.PartsUnlimited Web サイトで、「その他」をクリックします。
+        * Canaryサイトを開いた際のメニューバーにある「More」のことです。
+      * 18.カナリア Web アプリ ページの Application Insights ブレードに移動して、失敗した要求が Application Insights によって検出されたことを検証し、Application Insights ブレードで「アラート」をクリックして、ページに 1 つ以上の Sev3 アラートがリストされていることを確認します
+        * ラボ資料が間違っており、「Sev2」が正です。（2 - Warningのことです）
+  
