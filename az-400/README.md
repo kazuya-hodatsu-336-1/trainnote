@@ -222,4 +222,10 @@ https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%
 * **ラボ 12:Azure Key Vault と Azure DevOps の統合**  
   * 演習1
     * タスク  
-      * 
+      * 12 「[シークレットブレードの作成]で、次の設定を指定し、[作成]をクリックします（他のユーザーはデフォルト値のままにします）。」
+        * 有効なMYSQLパスワード値は、任意のパスワード。規定があるのでエラーにならぬよう、英字大小と数字・記号などを織り交ぜて短すぎるパスワードは避ける。(サンプル：9e68zBBKTUqu）
+    * タスク3
+      * 16 Azure Key Vault タスクを選択した状態で、 [Azure Key Vault] ペインの [更新] ボタンをクリックし、 [Azure サブスクリプション] ドロップダウン リストで kv-service-connection エントリを選択し、 [Key Vault] ドロップダウン リストで、最初のタスクで作成した Azure Key Vault を表すエントリを選択し、 [シークレット フィルター] テキストボックスに「sqldbpassword」と入力します。 最後に、 [出力変数] セクションを展開し、 [参照名] テキストボックスに「sqldbpassword」と入力します。
+        * Key Vaultを表すエントリが表示されるはずなのですが、現在表示されないことがあります。作成したKeyVault名を手入力で入れてすすめてください。
+      * 17 これを確認するには、次のタスクである Azure Deployment を選択します。このタスクは、ARM テンプレートをデプロイし、 [テンプレート パラメーターのオーバーライド] テキスト ボックスの内容を確認します
+        * ここで示しているのは、Tasksの「Azure Deployment」にある「Override template parameters」の内容です。個々の中の「mySQLAdminLoginPassword」の後の変数名が、Azure Key Vault側の、Output VariablesのReference nameと一致していないと、正しく変数名が設定できません。
