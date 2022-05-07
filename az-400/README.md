@@ -7,6 +7,7 @@ https://github.com/shu2-sato/courcenote/blob/main/az500/pdf/%E3%83%A9%E3%83%9C%E
 ※ラボを触るときは、ローカルの入力モードを、英字にしておくと安定します。
 * ラボコンテンツ(最新)：  
 [ラボコンテンツURL](./Lab_Apr_202204/AZ400_Top.md)  
+[日本語が分かりづらい場合の英語原文](https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/blob/master/Instructions/Labs/)
 * ラボ環境：  
 https://esi.learnondemand.net
 * Azure DevOps Demo Generator：  
@@ -17,10 +18,6 @@ https://dev.azure.com/
 https://aka.ms/lxpexamdiscountvideo
 * Courceware:  
 https://aka.ms/MOC_AZ-400T00-jpn 
-
-## ★前提条件  
-* 本コースを受ける前提は以下のとおりです。  
-
 
 ## ★知識チェック
 * 逐次URLを配布します。
@@ -55,9 +52,10 @@ https://aka.ms/MOC_AZ-400T00-jpn
 https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%92%B0%E5%A2%83%E3%81%A7%E3%81%AE-promo-code-%E3%81%AE%E5%85%A5%E6%89%8B  
 準備をまずは終わらせましょう。（最初に行っておかないと、３時間以上準備にかかるものがあります）  
 　この準備は、ラボ環境にログインすると、案内が出ますので、それに従って進めてください。
-　*デモ２０は飛ばしてください。  
-　*Githubアカウントを、Lab用のMicrosoftアカウントで作成してください。  
+　* デモ２０は飛ばしてください。  
+　* Githubアカウントを、Lab用のMicrosoftアカウントで作成してください。  
 　　作成の仕方は、https://github.com/join を参照してください。（作成には、outlookのメールを確認する必要があります。また、必ずFreeプランで作ってください）
+  * ラボのガイド用のWebページは、ラボ内でも開くことをお勧めします（コピペする機会が多いので）
 
 ---
 * **ラボ１：Azure Boards を使用したアジャイル プランニングとポートフォリオ管理**  
@@ -214,3 +212,14 @@ https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%
         * PipelineのReleaseにあります。
       * 27 ビルド パイプライン実行ペインの「ジョブ」セクションで「エージェント ジョブ 1」エントリをクリックし、ビルド プロセスの進捗状況を監視します。
         * Testのプロセスが失敗することがあります。失敗した場合は、Run Pipelineの時に、Agent Specificationを、「vs2017-win2016」に変更して実行してみてください。それでもダメな場合は、Project settingで作成した、「az-400 m12l02 LaunchDarkly」を編集して、Securityにて、「Grant access permission to all pipelines」にチェックして再実行してみてください。
+
+---
+* **ラボ 11:YAML を使用したコードとしてのパイプラインの構築**  
+  * 演習1
+    * タスク3  
+      * 10 「ビルド成果物の公開」は、「Publish build artifacts」です。
+---
+* **ラボ 12:Azure Key Vault と Azure DevOps の統合**  
+  * 演習1
+    * タスク  
+      * 

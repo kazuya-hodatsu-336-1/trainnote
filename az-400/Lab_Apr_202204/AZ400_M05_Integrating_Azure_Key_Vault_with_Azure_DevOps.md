@@ -109,7 +109,8 @@ Azure Pipelines からAzure リソースにアプリをデプロイするには�
 1.  **Bash** プロンプトの **Cloud Shell** ペインで、次のコマンドを実行してサービス プリンシパルを作成します (`<service-principal-name>` を文字と数字で構成される一意の文字列に置き換えます)。
 
     ```
-    az ad sp create-for-rbac --name <service-principal-name> --role Contributor
+    SUB_ID=$(az account show --query id --output tsv) 
+    az ad sp create-for-rbac --name <service-principal-name> --role contributor --scope /subscriptions/$SUB_ID
     ```
 
     > **注**:このコマンドは JSON 出力を生成します。 出力をテキスト ファイルにコピーします。 このラボで後ほど必要になります。
