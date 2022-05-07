@@ -273,7 +273,7 @@ https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%
             10. REMOTE EXPLORERに表示されている、IPアドレス（SSH接続先）を選択して、右クリックから、Connect to Host in ～のどちらかを選択。
             11. 画面が切り替わって、Enter password for azureuser@<IPアドレス>の画面が表示されるので、パスワードを入力（Pa55w.rd1234）
             12. VSCODEのEXPLOREを表示して、Open Folderをクリック
-            13. 自動的に上部にOpen Folderの欄が表示されて、「/home/azureuser/」淘汰さるはずなので、そのままOKをクリック
+            13. 自動的に上部にOpen Folderの欄が表示されて、「/home/azureuser/」とうたさるはずなので、そのままOKをクリック
             14. 再度パスワードを求められるので、上記11のパスワードを入力
             15. これで、SSH先のVM内がVSCodeで触れるようになる。Codeで編集という個所は、この起動しているVSCodeを使って、編集を行っていく（ファイルパスに応じた場所は階層をたどって開く）
             
