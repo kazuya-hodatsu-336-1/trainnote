@@ -317,6 +317,7 @@ Ansible では、管理対象リソースをホスト インベントリで指�
 
 1.  出力を記録します (出力文字列の最後のユーザー名を含む)。 
 1.  以下を実行して、Code テキスト エディターで **new_vm_web.yml** ファイルを開きます。
+  * 【重要】[README.md](../README.md)の* **ラボ 14:Ansible と Azure**  の項を必ず読んでください。SSH接続先のCODEは表示できない可能性が高いです。（現在、事象報告・解決策確認中につき、代替策での対応としています。VSCodeを直接利用する方法ですので、うまくいかない時はREADMEに倣って対応してください）
 
     ```bash
     code ~/PartsUnlimitedMRP/Labfiles/AZ-400T05-ImplemntgAppInfra/Labfiles/ansible/new_vm_web.yml
