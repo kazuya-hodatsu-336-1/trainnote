@@ -277,3 +277,15 @@ https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%
             14. 再度パスワードを求められるので、上記11のパスワードを入力
             15. これで、SSH先のVM内がVSCodeで触れるようになる。Codeで編集という個所は、この起動しているVSCodeを使って、編集を行っていく（ファイルパスに応じた場所は階層をたどって開く）
             
+---
+* **ラボ 16:Resource Manager テンプレートを使用した Azure デプロイ**  
+  * 演習１
+    * タスク３
+      * 7. Cloud Shell ペインで、 [ファイルのアップロード / ダウンロード] アイコンをクリックし、ドロップダウン メニューで [アップロード] をクリックします。 [開く] ダイアログ ボックスで、C:\templates\storage\storage.json に移動してこれを選択し、 [開く] をクリックします。
+        * 記載がありませんが、開くをクリックしてアップロードが完了した後、上記の説明の下にある、コマンドをCloudShellに貼り付けて実行してください。
+            
+---
+* **ラボ 16:Resource Manager テンプレートを使用した Azure デプロイ**  
+  * 演習１
+    * タスク２
+      * 5. 「SonarCloud トークン」は、演習０のタスク３の中でSonarCloudのAnalyze With Azure Pipelinesで２ Add a new SonarCloud Service Endpointの項で表示されています。
