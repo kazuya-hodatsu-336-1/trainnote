@@ -14,6 +14,8 @@ ms.locfileid: "140748969"
 
 ## <a name="instructions"></a>Instructions
 
+0. Lab実施専用端末（仮想のVMマシン）の設定を行う。以下のページを参考に実施してください。  
+https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%92%B0%E5%A2%83%E3%81%A7%E3%81%AE-promo-code-%E3%81%AE%E5%85%A5%E6%89%8B
 1. 講師またはその他のソースから、新しい **Azure Pass プロモーションコード** (30 日間有効) を入手します。
 2. プライベート ブラウザー セッションを使用して、[Microsoft アカウント で](https://account.microsoft.com)新しい **Microsoft アカウント (MSA)** を取得するか、既存のアカウントを使用します。
 3. 同じブラウザー セッションを使用して、[Microsoft Azure Pass](https://www.microsoftazurepass.com) にアクセスし、Microsoft アカウント (MSA) を使用して Azure Pass を利用します。 詳しくは、[Microsoft Azure Pass の引き換え](https://www.microsoftazurepass.com/Home/HowTo?Length=5)に関するページをご覧ください。 引き換えの手順に従います。 
