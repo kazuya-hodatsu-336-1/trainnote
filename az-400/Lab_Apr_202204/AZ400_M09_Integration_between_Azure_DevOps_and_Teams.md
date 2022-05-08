@@ -89,6 +89,8 @@ ms.locfileid: "139262528"
 
 このタスクでは、Microsoft Teams でチームを作成します。
 
+* **連携がうまくいかない場合が大半です。ダウンロード版を使う流れが記載されていますがWeb版を使って進めてください。**
+
 1.  ラボのコンピューターで Web ブラウザーを起動して [Microsoft Teams ダウンロード ページ](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app) に移動します。そこから既定の設定で Microsoft Teams をダウンロードしてインストールします。 
 1.  ラボのコンピューターでデスクトップ アプリを使い、**Microsoft Teams** を起動します。
 
