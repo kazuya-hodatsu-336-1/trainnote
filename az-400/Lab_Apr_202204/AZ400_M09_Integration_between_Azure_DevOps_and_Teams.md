@@ -20,6 +20,8 @@ ms.locfileid: "139262528"
 
 > **注**:**Azure DevOps Services** を Microsoft Teams と統合すると、開発サイクルを通して包括的なチャットとコラボレーションを体験できます。 チームは Azure DevOps チーム プロジェクトで、作業項目、プル要求、コードのコミット、ビルドおよびリリース イベントに関する通知とアラートにより、重要なアクティビティについて容易に情報を得られます。
 
+**重要：必ず、[README](../README.md)の「★ラボHELP」のラボ20の項を見てください。これまでとは、利用するAzure DevopsのMSアカウントが変わります。Office365のトライアルアカウントを作る必要があります。
+
 ## <a name="objectives"></a>目標
 
 このラボを完了すると、次のことができるようになります。
@@ -88,8 +90,6 @@ ms.locfileid: "139262528"
 #### <a name="task-2-create-a-team-in-microsoft-teams"></a>タスク 2:Microsoft Teams でチームを作成する
 
 このタスクでは、Microsoft Teams でチームを作成します。
-
-* **連携がうまくいかない場合が大半です。ダウンロード版を使う流れが記載されていますがWeb版を使って進めてください。**
 
 1.  ラボのコンピューターで Web ブラウザーを起動して [Microsoft Teams ダウンロード ページ](https://www.microsoft.com/en-us/microsoft-365/microsoft-teams/download-app) に移動します。そこから既定の設定で Microsoft Teams をダウンロードしてインストールします。 
 1.  ラボのコンピューターでデスクトップ アプリを使い、**Microsoft Teams** を起動します。
