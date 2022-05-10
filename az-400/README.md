@@ -308,7 +308,7 @@ https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%
 ---
 * **ラボ 20**  
   * 実際のラボ20で記載されているよりも、準備が非常に長くなっています。以下の資料を参考に、事前準備を行ってください。  
-  [事前準備資料はこちら](./doc/MS365E5.xlsx)
+  [事前準備資料はこちら](https://1drv.ms/x/s!ArmzL4Cc1PRfm8Nn2oT-Fx23nKr_kg?e=0V3ghm)
       
 ---
 * **ラボ 21**  
