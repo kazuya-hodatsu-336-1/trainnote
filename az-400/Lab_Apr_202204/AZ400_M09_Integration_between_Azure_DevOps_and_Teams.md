@@ -14,13 +14,14 @@ ms.locfileid: "139262528"
 
 ## <a name="lab-overview"></a>ラボの概要
 
+重要：必ず、[README](../README.md)の「★ラボHELP」のラボ20の項を見てください。これまでとは、利用するAzure DevopsのMSアカウントが変わります。Office365のトライアルアカウントを作る必要があります。
+==  
+
 **[Microsoft Teams](https://teams.microsoft.com/start)** は、Office 365 でのチームワークのためのハブです。 チームのあらゆるチャットやミーティング、ファイル、アプリを 1 箇所で管理して使用できます。 Office 365 と Azure DevOps 全体でチーム、会話、コンテンツ、ツールのハブをソフトウェア開発チームに提供します。
 
 このラボでは、Azure DevOps サービスと Microsoft Teams 間の統合シナリオを実装します。
 
 > **注**:**Azure DevOps Services** を Microsoft Teams と統合すると、開発サイクルを通して包括的なチャットとコラボレーションを体験できます。 チームは Azure DevOps チーム プロジェクトで、作業項目、プル要求、コードのコミット、ビルドおよびリリース イベントに関する通知とアラートにより、重要なアクティビティについて容易に情報を得られます。
-
-**重要：必ず、[README](../README.md)の「★ラボHELP」のラボ20の項を見てください。これまでとは、利用するAzure DevopsのMSアカウントが変わります。Office365のトライアルアカウントを作る必要があります。
 
 ## <a name="objectives"></a>目標
 
