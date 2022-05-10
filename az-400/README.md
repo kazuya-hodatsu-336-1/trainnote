@@ -312,7 +312,10 @@ https://github.com/hiryamada/notes/blob/main/prep/lods.md#%E3%83%A9%E3%83%9C%E7%
       
 ---
 * **ラボ 21**  
-  * 特にガイドはありません。
+  * 演習1
+    * タスク3
+      * 14.[可用性] ブレードのツールバーで [+ テストの追加] をクリックします。
+        * Add Clasic Testをクリックして、名前とURLを入力してCreateでOKです。（URLは、AppServiceのOverviweにあるURLです）
 ---
 * **ラボ 22**  
   * 特にガイドはありません。
